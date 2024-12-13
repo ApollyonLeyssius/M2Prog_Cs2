@@ -12,5 +12,6 @@ namespace Data_classes
         internal Student student;
         internal RijLeraar RijLeraar;
         internal Auto auto;
+
     }
 }
