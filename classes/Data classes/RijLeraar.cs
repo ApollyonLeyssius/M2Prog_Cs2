@@ -11,5 +11,12 @@ namespace Data_classes
         internal string naam;
         internal int leeftijd;
         internal bool zzp;
+
+        RijLeraar rijLeraar = new RijLeraar()
+        { 
+            leeftijd = 30,
+            naam = "John",
+            zzp = true,
+        };
     }
 }
