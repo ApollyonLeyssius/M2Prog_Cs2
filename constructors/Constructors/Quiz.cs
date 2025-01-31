@@ -11,6 +11,11 @@ namespace Constructors
         internal QuizVraag[] vragen;
         internal QuizVraagAntwoord[] ingevuldeAntwoorden;
 
+        void VoegVraagToeOpIndex()
+        {
+
+        }
+
         Quiz quiz = new Quiz(10);
         internal Quiz()
         {
@@ -26,6 +31,8 @@ namespace Constructors
         {
             ingevuldeAntwoorden = new QuizVraagAntwoord[ingevuldeAntwoorden];
         }
+
+        quiz.VoegVraagToeOpIndex(0, quizVraag);
 
     }
 }
